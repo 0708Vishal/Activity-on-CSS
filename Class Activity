@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 6</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .container {
+            width: 400px;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 1px 1px 8px gray;
+        }
+
+        .mini {
+            border-radius: 8px;
+            padding: 14px;
+            margin: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container" style="font-family: Arial, Helvetica, sans-serif;">
+        <div class="mini" style="background-color: green;">
+            <img src="avtar.png.jfif" alt="avatar" height="100px" width="100px" style="border-radius: 100%;">
+        </div>
+        <div class="mini" style="background-color: blue;">
+            <h1 style="color: white;">John Doe</h1>
+            <p><span style="color: white;"><b>Web Developer</b></span> <span style="color: white;">at</span> <span
+                    style="color: white;"><b>Tech Solution</b></span></p>
+        </div>
+        <div class="mini" style="color: white; background-color: yellow; font-weight: bold;">
+            <p>Passionate about creating innovative web solutions that enhance user experience and functionality.
+                Experienced in HTML, CSS JavaScript and responsive design.</p>
+        </div>
+
+        <div class="mini" style="background-color: purple; color: white;">
+            <p>Email: <a href="email:johndoe@example.com">johndoe@example.com</a></p>
+            <p>Phone: <a href="phone:(123)456-7890">(123) 456-7890</a></p>
+        </div>
+
+        <div class="mini" style="background-color: orange">
+            <a href="">LinkedIn</a>
+            <a href="">Twitter</a>
+        </div>
+    </div>
+</body>
+
+</html>
